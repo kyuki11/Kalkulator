@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edAngkaPertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="Nilai 1"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edAngkaKedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColorHint="#FFFCFC"
+        android:textColor="#FFFFFF"
+        android:hint="Nilai 2"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnJumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:textStyle="bold"
+            android:text="tambah"
+            android:textColor="#ffffff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKurang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:textStyle="bold"
+            android:text="kurang"
+            android:textColor="#ffffff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:textStyle="bold"
+            android:text="kali"
+            android:textColor="#ffffff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBagi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:textStyle="bold"
+            android:text="bagi"
+            android:textColor="#ffffff" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txHasil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="0"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:text="Aplikasi Perhitungan Dari Manusia"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
